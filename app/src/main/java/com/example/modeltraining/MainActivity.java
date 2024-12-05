@@ -137,9 +137,9 @@ public class MainActivity extends AppCompatActivity {
         return 11; // Adjust based on the model's class count
     }
 
-    // Map prediction indices to human-readable labels
+    // Map prediction indices to readable labels
     private String getLabelForPrediction(int prediction) {
-        // Create a map of class indices to labels
+        // Create a map of class to labels
         Map<Integer, String> labels = new HashMap<>();
         labels.put(1, "Alligator");
         labels.put(2, "Bass");
